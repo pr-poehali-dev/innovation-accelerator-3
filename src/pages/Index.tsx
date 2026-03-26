@@ -4,7 +4,7 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">ГУЛЯЙ*ВИЛЯЙ</div>
+        <div className="logo">ПЁС*ПАТРУЛЬ</div>
         <nav>
           <a href="#prices">Цены</a>
           <a href="#how">Как это работает</a>
@@ -347,7 +347,7 @@ export default function Index() {
 
       <footer id="faq">
         <div>
-          <div className="footer-logo">ГУЛЯЙ*ВИЛЯЙ</div>
+          <div className="footer-logo">ПЁС*ПАТРУЛЬ</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
             Лучший сервис выгула собак в Москве. Рейтинг 5.0 на Яндексе. Работаем во всех округах столицы.
           </p>
