@@ -77,37 +77,10 @@ export default function Index() {
             </span>
           </div>
 
-          <div className="menu-grid">
-            {/* 20 min */}
-            <div className="menu-card">
-              <span className="menu-tag">Быстрый</span>
-              <img
-                src="https://cdn.poehali.dev/projects/6079896c-6b7b-4aa1-803c-f1f0403dfa00/files/b98cb308-c282-4326-bc28-b6c6b69aaf72.jpg"
-                alt="Выгул 20 минут"
-              />
-              <div className="menu-card-body">
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    marginBottom: "10px",
-                  }}
-                >
-                  <h3>20 минут</h3>
-                  <span className="price">890 ₽</span>
-                </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>
-                  Короткая прогулка для тех, кто торопится. Выгульщик заберёт питомца и вернёт в порядке.
-                </p>
-              </div>
-            </div>
-
+          <div className="menu-grid" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
             {/* 40 min */}
             <div className="menu-card">
-              <span className="menu-tag" style={{ background: "var(--primary)", color: "white" }}>
-                Хит
-              </span>
+              <span className="menu-tag">Стандартный</span>
               <img
                 src="https://cdn.poehali.dev/projects/6079896c-6b7b-4aa1-803c-f1f0403dfa00/files/582bd34d-8f21-4627-a8ad-1b6929d3ec2f.jpg"
                 alt="Выгул 40 минут"
@@ -122,7 +95,7 @@ export default function Index() {
                   }}
                 >
                   <h3>40 минут</h3>
-                  <span className="price">1 090 ₽</span>
+                  <span className="price">540 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
                   Стандартная прогулка — именно столько нужно собаке для нормального самочувствия и активности.
@@ -130,14 +103,14 @@ export default function Index() {
               </div>
             </div>
 
-            {/* 60 min */}
+            {/* 80 min */}
             <div className="menu-card">
-              <span className="menu-tag" style={{ background: "var(--accent)", color: "var(--dark)" }}>
-                Полный
+              <span className="menu-tag" style={{ background: "var(--primary)", color: "white" }}>
+                Расширенный
               </span>
               <img
                 src="https://cdn.poehali.dev/projects/6079896c-6b7b-4aa1-803c-f1f0403dfa00/files/2b5853be-84c0-4e1b-b067-68add83e95b5.jpg"
-                alt="Выгул 60 минут"
+                alt="Выгул 80 минут"
               />
               <div className="menu-card-body">
                 <div
@@ -148,8 +121,8 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>1 час</h3>
-                  <span className="price">1 290 ₽</span>
+                  <h3>80 минут</h3>
+                  <span className="price">1 080 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
                   Полноценная прогулка для активных питомцев. Лапки помоем, покормим и пришлём фото-отчёт.
